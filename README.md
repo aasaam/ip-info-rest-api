@@ -19,7 +19,7 @@
 For see available options
 
 ```bash
-docker run --rm ghcr.io/aasaam/ip-info-rest-api:latest -h
+docker run --rm ghcr.io/aasaam/ip-info-rest-api:latest run -h
 ```
 
 ## Usage

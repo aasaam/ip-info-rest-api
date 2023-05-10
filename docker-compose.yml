@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  ip-info-rest-api:
+    image: ghcr.io/aasaam/ip-info-rest-api:latest
+    container_name: ip-info-rest-api
+    ports:
+      - 4000:4000
+    hostname: ip-info-rest-api
+    command: run

@@ -71,6 +71,7 @@ func main() {
 			Usage:  "Run server",
 			Action: runServer,
 			Flags: []cli.Flag{
+
 				&cli.StringFlag{
 					Name:     "listen",
 					Usage:    "Application listen http ip:port address",
