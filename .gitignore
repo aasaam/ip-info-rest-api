@@ -1,0 +1,5 @@
+# Copyright (c) 2023 aasaam software development group
+coverage.*
+go.sum
+ip-info-rest-api
+ip-info-rest-api*
