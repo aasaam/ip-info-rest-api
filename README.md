@@ -1,9 +1,9 @@
 <div align="center">
   <h1>
-    IP Information REST api
+    IP Information REST API
   </h1>
   <p>
-    Simple REST api server for get IP information.
+    Simple REST API server for get IP information
   </p>
   <p>
     <a href="https://github.com/aasaam/ip-info-rest-api/actions/workflows/build.yml" target="_blank"><img src="https://github.com/aasaam/ip-info-rest-api/actions/workflows/build.yml/badge.svg" alt="build" /></a>

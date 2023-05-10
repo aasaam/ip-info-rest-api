@@ -7,7 +7,7 @@ RUN cd /src \
   && CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o ip-info-rest-api \
   && ls -lah /src/ip-info-rest-api
 
-FROM scrach
+FROM alpine
 COPY --from=builder /src/ip-info-rest-api /usr/bin/ip-info-rest-api
 
 ADD /tmp/GeoLite2-ASN.mmdb /tmp/GeoLite2-ASN.mmdb
