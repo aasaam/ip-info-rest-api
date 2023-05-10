@@ -10,7 +10,7 @@ RUN cd /src \
 FROM alpine
 COPY --from=builder /src/ip-info-rest-api /usr/bin/ip-info-rest-api
 
-ADD /tmp/GeoLite2-ASN.mmdb /tmp/GeoLite2-ASN.mmdb
-ADD /tmp/GeoLite2-City.mmdb /tmp/GeoLite2-City.mmdb
+ADD tmp/GeoLite2-ASN.mmdb /tmp/GeoLite2-ASN.mmdb
+ADD tmp/GeoLite2-City.mmdb /tmp/GeoLite2-City.mmdb
 
 ENTRYPOINT ["/usr/bin/ip-info-rest-api"]
