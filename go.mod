@@ -3,16 +3,13 @@ module github.com/aasaam/ip-info-rest-api
 go 1.19
 
 require (
-	github.com/PuerkitoBio/goquery v1.8.1
-	github.com/PuerkitoBio/purell v1.2.0
 	github.com/gofiber/fiber/v2 v2.45.0
 	github.com/oschwald/geoip2-golang v1.8.0
-	github.com/urfave/cli/v2 v2.25.3
+	github.com/urfave/cli/v2 v2.25.7
 )
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
-	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/klauspost/compress v1.16.3 // indirect
@@ -30,7 +27,5 @@ require (
 	github.com/valyala/fasthttp v1.47.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
 )
